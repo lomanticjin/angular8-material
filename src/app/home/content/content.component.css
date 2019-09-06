@@ -1,0 +1,40 @@
+
+
+.advertising-content {
+  position: relative;
+  padding: 50px;
+  padding-left:10px;
+  top: -30px;
+  background-color: white !important;
+  border-radius: 10px;
+}
+
+.row {
+  margin:0px;
+}
+.gallery-item {
+  display:table;
+  float:left;
+
+}
+
+.column {
+  display:table-cell;
+}
+
+.column > img {
+  width:100%;
+  border-radius: 20px;
+  padding:10px;
+}
+
+.btn-column {
+  display: table;
+}
+.mat-fab.mat-accent {
+  color:#2F5AA8;
+  background-color:white;
+
+  border:2px solid #2F5AA8;
+
+}

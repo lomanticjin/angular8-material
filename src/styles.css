@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+	.modal.right .modal-dialog {
+    position: relative;
+    float:right;
+		margin: auto;
+		width: 30%;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.right .modal-content {
+    height: 100%;
+		overflow-y: auto;
+	}
+
+
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+.modal.right.fade .modal-dialog {
+ margin:0;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+          transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+ float: left;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-header {
+  border-bottom-color:#2F5AA8 !important;
+  color:white !important;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+.list-group-item {
+  text-align:center;
+  border:none !important;
+}
+
+.list-group-item, .modal-header, .modal-content {
+  background-color:#2F5AA8;
+  color:#ffffff;
+}
+
+.close {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+.close > i {
+  font-size:40px;
+  color:white;
+  border:1px solid white;
+  background-color: #2F5AA8;
+  border-radius:25px;
+}
+
+.social-link {
+  color:white;
+  border-radius: 25px;
+  border:1px solid white;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.modal {
+  padding:0px !important;
+
+}
+.header {
+  background-image:url('../../background-image.png');;
+  color: #ffffff;
+
+}
+.row {
+  margin:0 !important;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

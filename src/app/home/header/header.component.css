@@ -1,0 +1,86 @@
+.main-header {
+
+}
+
+.header-img {
+  background-size: contain;
+  width:100%;
+  height:700px;
+  max-height: 700px;
+}
+.header-logo-img {
+  position: absolute;
+  top: 35px;
+  left: 140px;
+  font-size: 18px;
+}
+
+.header-search-bar {
+  position: absolute;
+  left: 0;
+  top: 350px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-btn-bar {
+  position: absolute;
+  top: 35px;
+  right:140px;
+  font-size: 18px;
+}
+
+.header-search-btn {
+  color:white !important;
+  width: 180px;
+  border-radius: 25px;
+  margin:20px;
+  border-color:white;
+}
+
+.header-search-btn :hover {
+  border-color: #2F5AA8 !important;
+  background-color: #2F5AA8 !important;
+}
+
+.dropdown-toggle {
+  background-color: white;
+  border-color:white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: 1px solid grey;
+}
+.dropdown-toggle:hover {
+  background-color: white;
+  color:black;
+  border-color:white;
+}
+
+.search-btn {
+  background-color: white;
+  color:#2F5AA8;
+  border-radius:0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.input-group > input {
+  height:60px;
+  border:none;
+}
+
+.search-bar {
+  border-radius: 10rem;
+  background: #fff;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+}
+
+
+.pl-lg-4, .px-lg-4 {
+    padding-left: 1.5rem !important;
+}
+
+.p-lg-1 {
+  padding: .25rem !important;
+}

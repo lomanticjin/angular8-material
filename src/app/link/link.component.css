@@ -1,0 +1,27 @@
+
+.link-container {
+  width:100%;
+
+}
+
+.link-row1,.link-row2,.link-row3,.link-row4 {
+  padding-bottom:10px;
+  padding-right:10px;
+
+}
+
+
+ a:hover {
+  background-color:white !important;
+  cursor: pointer;
+}
+
+ .btn,.btn-outline-secondary {
+  border-radius:25px;
+  font-size:15px;
+  margin-right: 10px;
+}
+
+.link-row2 {
+
+}

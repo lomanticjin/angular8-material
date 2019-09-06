@@ -1,0 +1,36 @@
+.member-img > img {
+  padding: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+}
+
+
+.lsit-group-flush {
+  text-align:center;
+}
+.member-contact {
+  width:85%;
+  background-color: #2F5AA8;
+  border-radius:25px;
+  font-size:14px;
+  color:white !important;
+  border-color:#2F5AA8 !important;
+  position:relative;
+  left:8%;
+
+}
+
+.card {
+  position:relative;
+  margin-right:1%;
+  float:left;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
