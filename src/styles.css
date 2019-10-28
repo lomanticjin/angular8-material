@@ -114,7 +114,7 @@ html {
 
 }
 .header {
-  background-image:url('../../background-image.png');;
+  background-image:url('./assets/images/background-image.png');
   color: #ffffff;
 
 }
